@@ -1,0 +1,4 @@
+<layoutAssignments>
+    <layout>LAYOUTNAME</layout>
+    <recordType>RECORDTYPENAME</recordType>
+</layoutAssignments>
