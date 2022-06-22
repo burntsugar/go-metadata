@@ -6,4 +6,5 @@ import (
 
 func main() {
 	fragments.LayoutAssignments()
+	fragments.RecordTypeVisibility()
 }

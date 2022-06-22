@@ -1,6 +1,9 @@
 package fragments
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 type layoutAttributes struct {
 	layoutname     string
@@ -8,7 +11,7 @@ type layoutAttributes struct {
 }
 
 func LayoutAssignments() {
-	mergeValues := getLayoutMergeValues("fragments/merge-data/layout-names.txt", "fragments/merge-data/recordtype-names.txt")
+	mergeValues := getLayoutMergeValues("fragments/merge-data/layout-assignment.txt")
 	template := readTemplate("fragments/templates/layout-assignment-template.txt")
 	placeholderNames := []string{"LAYOUTNAME", "RECORDTYPENAME"}
 	layoutAssignments := makeLayoutAssignmentFragments(template, placeholderNames, mergeValues)
@@ -29,15 +32,14 @@ func makeLayoutAssignmentFragments(template string, placeholderNames []string, m
 	return result
 }
 
-func getLayoutMergeValues(layoutNamesFile string, recordTypeNamesFile string) []layoutAttributes {
-	delimiter := ","
-	slice1 := readMergeValues(layoutNamesFile, delimiter)
-	slice2 := readMergeValues(recordTypeNamesFile, delimiter)
+func getLayoutMergeValues(mergeValuesFile string) []layoutAttributes {
+	mergeValueLines := readMergeValues(mergeValuesFile)
 	result := []layoutAttributes{}
-	for i, s1 := range slice1 {
+	for _, s1 := range mergeValueLines {
+		attrs := strings.Split(s1, ",")
 		r := layoutAttributes{
-			layoutname:     s1,
-			recordtypename: slice2[i],
+			layoutname:     attrs[0],
+			recordtypename: attrs[1],
 		}
 		result = append(result, r)
 	}

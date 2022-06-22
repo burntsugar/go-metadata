@@ -19,11 +19,13 @@ func merge(template string, placeholderName string, mergename string) string {
 	return s1
 }
 
-func readMergeValues(filename string, delimiter string) []string {
+func readMergeValues(filename string) []string {
 	b, err := ioutil.ReadFile(filename)
 	if err != nil {
 		fmt.Print(err)
 	}
 	filestring := string(b)
-	return strings.Split(filestring, delimiter)
+	lines := strings.Split(filestring, "\n")
+
+	return lines
 }

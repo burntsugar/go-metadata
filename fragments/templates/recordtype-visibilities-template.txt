@@ -1,0 +1,5 @@
+<recordTypeVisibilities>
+    <default>DEFAULT</default>
+    <recordType>RECORDTYPENAME</recordType>
+    <visible>VISIBLE</visible>
+</recordTypeVisibilities>

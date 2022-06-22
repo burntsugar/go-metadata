@@ -1,0 +1,3 @@
+false,rt1,true
+false,rt2,true
+true,rt3,true
