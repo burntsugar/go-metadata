@@ -16,8 +16,6 @@ func FlexipageAssignments() {
 	template := readTemplate("fragments/templates/flexipage-assignment-template.txt")
 	placeholderNames := []string{"FLEXIPAGENAME", "OBJECTAPINAME", "RECORDTYPENAME", "PROFILENAME"}
 	flexipageAssignments := makeFlexipageAssignmentFragments(template, placeholderNames, mergeValues)
-	//fmt.Print(flexipageAssignments)
-
 	saveData(flexipageAssignments)
 }
 

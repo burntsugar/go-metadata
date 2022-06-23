@@ -14,8 +14,6 @@ func LayoutAssignments() {
 	template := readTemplate("fragments/templates/layout-assignment-template.txt")
 	placeholderNames := []string{"LAYOUTNAME", "RECORDTYPENAME"}
 	layoutAssignments := makeLayoutAssignmentFragments(template, placeholderNames, mergeValues)
-	//fmt.Print(layoutAssignments)
-
 	saveData(layoutAssignments)
 }
 

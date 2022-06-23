@@ -15,8 +15,6 @@ func RecordTypeVisibility() {
 	template := readTemplate("fragments/templates/recordtype-visibilities-template.txt")
 	placeholderNames := []string{"DEFAULT", "RECORDTYPENAME", "VISIBLE"}
 	recordTypeVisibilities := makeRecordTypeVisibilityFragments(template, placeholderNames, mergeValues)
-	//fmt.Print(recordTypeVisibilities)
-
 	saveData(recordTypeVisibilities)
 }
 

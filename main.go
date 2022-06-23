@@ -1,7 +1,7 @@
 package main
 
 import (
-	"layoutassignment/fragments"
+	"SalesforceFragmentMehker/fragments"
 )
 
 func main() {
