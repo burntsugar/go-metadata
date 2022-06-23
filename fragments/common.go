@@ -3,6 +3,8 @@ package fragments
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
+	"os"
 	"strings"
 )
 
@@ -28,4 +30,20 @@ func readMergeValues(filename string) []string {
 	lines := strings.Split(filestring, "\n")
 
 	return lines
+}
+
+func saveData(dataString string) {
+	f, err := os.Create("data.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	defer f.Close()
+	_, err2 := f.WriteString(dataString + "\n")
+
+	if err2 != nil {
+		log.Fatal(err2)
+	}
+
+	fmt.Println("Fragment created!")
 }

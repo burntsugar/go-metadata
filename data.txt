@@ -1,0 +1,973 @@
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submission_Receipt_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submission_Receipt_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_Fee_Payment_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_Fee_Payment_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_RFI</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_RFI</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Assessment_RFI_Response_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Assessment_RFI_Response_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_Locked_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_Locked_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Delegate_s_Decision_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Delegate_s_Decision_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Finalise_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Finalise_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Inactive_Application_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Inactive_Application_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Recommendation_to_Delegate_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Recommendation_to_Delegate_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submission_Receipt_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submission_Receipt_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_Fee_Payment_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_Fee_Payment_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_RFI</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_RFI</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Assessment_RFI_Response_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Assessment_RFI_Response_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_Locked_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_Locked_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Delegate_s_Decision_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Delegate_s_Decision_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Finalise_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Finalise_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Inactive_Application_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Inactive_Application_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Recommendation_to_Delegate_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Recommendation_to_Delegate_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submission_Receipt_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submission_Receipt_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_Fee_Payment_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_Fee_Payment_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_RFI</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Application_Submitted_RFI</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Assessment_RFI_Response_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Assessment_RFI_Response_Pending_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_Locked_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Closed_Locked_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Delegate_s_Decision_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Delegate_s_Decision_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Finalise_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Finalise_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.For_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Inactive_Application_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Inactive_Application_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Recommendation_to_Delegate_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Recommendation_to_Delegate_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Assessment_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Application_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Application__c</pageOrSobjectType>
+    <recordType>Application__c.Under_Review_APP</recordType>
+    <type>Flexipage</type>
+    <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.Approved_Provider_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.Approved_Provider_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.CHSP_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.CHSP_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.NATSIFAC_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.NATSIFAC_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.Approved_Provider_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.Approved_Provider_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.CHSP_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.CHSP_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.NATSIFAC_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Service_Record_Page1</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>BusinessLicense</pageOrSobjectType>
+    <recordType>BusinessLicense.NATSIFAC_Service</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Contact_Relationship_Consultant</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Contact_Relationship__c</pageOrSobjectType>
+    <recordType>Contact_Relationship__c.Consultant_CR</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Contact_Relationship_Consultant</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Contact_Relationship__c</pageOrSobjectType>
+    <recordType>Contact_Relationship__c.Consultant_CR</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Information</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Information</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Reconsideration</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Reconsideration</recordType>
+    <type>Flexipage</type>
+    <profile>Project Administrator</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Contact_Relationship_Consultant</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Contact_Relationship__c</pageOrSobjectType>
+    <recordType>Contact_Relationship__c.Consultant_CR</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>Contact_Relationship_Consultant</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Contact_Relationship__c</pageOrSobjectType>
+    <recordType>Contact_Relationship__c.Consultant_CR</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Information</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Information</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Reconsideration</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>RFI_and_Reconsideration_Request</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>Case</pageOrSobjectType>
+    <recordType>Case.Request_for_Reconsideration</recordType>
+    <type>Flexipage</type>
+    <profile>Read Only</profile>
+</profileActionOverrides>
+

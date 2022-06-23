@@ -1,7 +1,6 @@
 package fragments
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -16,7 +15,9 @@ func RecordTypeVisibility() {
 	template := readTemplate("fragments/templates/recordtype-visibilities-template.txt")
 	placeholderNames := []string{"DEFAULT", "RECORDTYPENAME", "VISIBLE"}
 	recordTypeVisibilities := makeRecordTypeVisibilityFragments(template, placeholderNames, mergeValues)
-	fmt.Print(recordTypeVisibilities)
+	//fmt.Print(recordTypeVisibilities)
+
+	saveData(recordTypeVisibilities)
 }
 
 func makeRecordTypeVisibilityFragments(template string, placeholderNames []string, mergeValues []rtVisibilityAttributes) string {

@@ -1,8 +1,6 @@
 package fragments
 
 import (
-	"fmt"
-	"ioutil"
 	"strings"
 )
 
@@ -17,10 +15,10 @@ func FlexipageAssignments() {
 	mergeValues := getFlexipageMergeValues("fragments/merge-data/flexipage-assignment.txt")
 	template := readTemplate("fragments/templates/flexipage-assignment-template.txt")
 	placeholderNames := []string{"FLEXIPAGENAME", "OBJECTAPINAME", "RECORDTYPENAME", "PROFILENAME"}
-	layoutAssignments := makeFlexipageAssignmentFragments(template, placeholderNames, mergeValues)
-	fmt.Print(layoutAssignments)
+	flexipageAssignments := makeFlexipageAssignmentFragments(template, placeholderNames, mergeValues)
+	//fmt.Print(flexipageAssignments)
 
-	ioutil.WriteFile("flexipage-assignment-output.xml", layoutAssignments, 0644)
+	saveData(flexipageAssignments)
 }
 
 func makeFlexipageAssignmentFragments(template string, placeholderNames []string, mergeValues []flexipageAttributes) string {
@@ -45,10 +43,10 @@ func getFlexipageMergeValues(mergeValuesFile string) []flexipageAttributes {
 	for _, s1 := range mergeValueLines {
 		attrs := strings.Split(s1, ",")
 		r := flexipageAttributes{
-			flexipageName:  attrs[0],
-			objectApiName:  attrs[1],
-			recordtypename: attrs[2],
-			profileName:    attrs[3],
+			flexipageName:  strings.TrimSpace(attrs[0]),
+			objectApiName:  strings.TrimSpace(attrs[1]),
+			recordtypename: strings.TrimSpace(attrs[2]),
+			profileName:    strings.TrimSpace(attrs[3]),
 		}
 		result = append(result, r)
 	}

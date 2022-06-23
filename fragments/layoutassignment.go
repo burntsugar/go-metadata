@@ -1,7 +1,6 @@
 package fragments
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -15,7 +14,9 @@ func LayoutAssignments() {
 	template := readTemplate("fragments/templates/layout-assignment-template.txt")
 	placeholderNames := []string{"LAYOUTNAME", "RECORDTYPENAME"}
 	layoutAssignments := makeLayoutAssignmentFragments(template, placeholderNames, mergeValues)
-	fmt.Print(layoutAssignments)
+	//fmt.Print(layoutAssignments)
+
+	saveData(layoutAssignments)
 }
 
 func makeLayoutAssignmentFragments(template string, placeholderNames []string, mergeValues []layoutAttributes) string {
