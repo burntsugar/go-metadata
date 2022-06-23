@@ -1,0 +1,18 @@
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>FLEXIPAGENAME</content>
+    <formFactor>Small</formFactor>
+    <pageOrSobjectType>OBJECTAPINAME</pageOrSobjectType>
+    <recordType>RECORDTYPENAME</recordType>
+    <type>Flexipage</type>
+    <profile>PROFILENAME</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+    <actionName>View</actionName>
+    <content>FLEXIPAGENAME</content>
+    <formFactor>Large</formFactor>
+    <pageOrSobjectType>OBJECTAPINAME</pageOrSobjectType>
+    <recordType>RECORDTYPENAME</recordType>
+    <type>Flexipage</type>
+    <profile>PROFILENAME</profile>
+</profileActionOverrides>

@@ -7,4 +7,5 @@ import (
 func main() {
 	fragments.LayoutAssignments()
 	fragments.RecordTypeVisibility()
+	fragments.FlexipageAssignments()
 }
