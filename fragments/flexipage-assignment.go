@@ -1,6 +1,8 @@
 package fragments
 
 import (
+	"fmt"
+	"log"
 	"strings"
 )
 
@@ -15,24 +17,27 @@ func FlexipageAssignments() {
 	mergeValues := getFlexipageMergeValues("fragments/merge-data/flexipage-assignment.txt")
 	template := readTemplate("fragments/templates/flexipage-assignment-template.txt")
 	placeholderNames := []string{"FLEXIPAGENAME", "OBJECTAPINAME", "RECORDTYPENAME", "PROFILENAME"}
-	flexipageAssignments := makeFlexipageAssignmentFragments(template, placeholderNames, mergeValues)
-	saveData(flexipageAssignments)
+	makeFlexipageAssignmentFragments(template, placeholderNames, mergeValues)
 }
 
-func makeFlexipageAssignmentFragments(template string, placeholderNames []string, mergeValues []flexipageAttributes) string {
+func makeFlexipageAssignmentFragments(template string, placeholderNames []string, mergeValues []flexipageAttributes) {
+	f := openFile()
+	defer f.Close()
+
 	start := 0
 	stop := len(mergeValues) - 1
-	var result string
 	for i := start; i <= stop; i++ {
 		n := mergeValues[i]
-		res1 := merge(template, placeholderNames[0], n.flexipageName)
-		res2 := merge(res1, placeholderNames[1], n.objectApiName)
-		res3 := merge(res2, placeholderNames[2], n.recordtypename)
-		res4 := merge(res3, placeholderNames[3], n.profileName)
-		res4 += "\n"
-		result += res4
+		merge1 := merge(template, placeholderNames[0], n.flexipageName)
+		merge2 := merge(merge1, placeholderNames[1], n.objectApiName)
+		merge3 := merge(merge2, placeholderNames[2], n.recordtypename)
+		merge4 := merge(merge3, placeholderNames[3], n.profileName)
+
+		if _, err := fmt.Fprintf(f, "%s\n%s\n", dateTimeString(), merge4); err != nil {
+			log.Fatal(err)
+		}
 	}
-	return result
+	fmt.Println("Fragment created!")
 }
 
 func getFlexipageMergeValues(mergeValuesFile string) []flexipageAttributes {

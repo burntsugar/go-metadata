@@ -3,6 +3,7 @@ package fragments
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
 	"strings"
 	"time"
@@ -16,8 +17,8 @@ func readTemplate(templateFile string) string {
 	return string(b)
 }
 
-func merge(template string, placeholderName string, mergename string) string {
-	s1 := strings.Replace(template, placeholderName, mergename, -1)
+func merge(template string, placeholderName string, mergeValue string) string {
+	s1 := strings.Replace(template, placeholderName, mergeValue, -1)
 	return s1
 }
 
@@ -32,6 +33,24 @@ func readMergeValues(filename string) []string {
 	return lines
 }
 
+func dateTimeString() (dateTimeString string) {
+	t := time.Now()
+	const l = "2 Jan 2006 15:04:05"
+	return t.Format(l)
+}
+
+func openFile() (f *os.File) {
+	fileName := "fragments/output/" + dateTimeString() + "-data.txt"
+
+	f, err := os.OpenFile(fileName,
+		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return f
+}
+
 func saveData(dataString string) {
 	t := time.Now()
 	const layout = "2 Jan 2006 15:04:05"
@@ -40,7 +59,7 @@ func saveData(dataString string) {
 	f, err := os.OpenFile(fileName,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
-		fmt.Println(err)
+		log.Fatal(err)
 	}
 	defer f.Close()
 
