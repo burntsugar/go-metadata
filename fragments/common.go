@@ -54,7 +54,9 @@ func openFile() (f *os.File) {
 func saveData(dataString string) {
 	t := time.Now()
 	const layout = "2 Jan 2006 15:04:05"
-	fileName := "fragments/output/" + t.Format(layout) + "-data.txt"
+	// fileName := "fragments/output/" + t.Format(layout) + "-data.txt"
+
+	fileName := "fragments/output/output-data.txt"
 
 	f, err := os.OpenFile(fileName,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)

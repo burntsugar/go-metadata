@@ -1,0 +1,5 @@
+<fieldPermissions>
+    <editable>EDITABLE</editable>
+    <field>FIELDNAME</field>
+    <readable>READABLE</readable>
+</fieldPermissions>
