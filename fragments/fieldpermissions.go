@@ -45,9 +45,9 @@ func getFieldPermissionMergeValues(mergeValuesFile string) []fieldPerms {
 
 		attrs := strings.Split(s1, ",")
 		r := fieldPerms{
-			editable:  attrs[0],
-			fieldName: attrs[1],
-			readable:  attrs[2],
+			readable:  strings.TrimSpace(attrs[0]),
+			editable:  strings.TrimSpace(attrs[1]),
+			fieldName: strings.TrimSpace(attrs[2]),
 		}
 		result = append(result, r)
 	}

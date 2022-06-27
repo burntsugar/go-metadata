@@ -40,7 +40,8 @@ func dateTimeString() (dateTimeString string) {
 }
 
 func openFile() (f *os.File) {
-	fileName := "fragments/output/" + dateTimeString() + "-data.txt"
+	// fileName := "fragments/output/" + dateTimeString() + "-data.txt"
+	fileName := "fragments/output/output-data.txt"
 
 	f, err := os.OpenFile(fileName,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)

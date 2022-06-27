@@ -13,7 +13,12 @@ type flexipageAttributes struct {
 	profileName    string
 }
 
-func FlexipageAssignments() {
+func FlexipageAssignments(hasRecordType bool) {
+
+	if hasRecordType {
+
+	}
+
 	mergeValues := getFlexipageMergeValues("fragments/merge-data/flexipage-assignment.txt")
 	template := readTemplate("fragments/templates/flexipage-assignment-template.txt")
 	placeholderNames := []string{"FLEXIPAGENAME", "OBJECTAPINAME", "RECORDTYPENAME", "PROFILENAME"}
@@ -33,7 +38,11 @@ func makeFlexipageAssignmentFragments(template string, placeholderNames []string
 		merge3 := merge(merge2, placeholderNames[2], n.recordtypename)
 		merge4 := merge(merge3, placeholderNames[3], n.profileName)
 
-		if _, err := fmt.Fprintf(f, "%s\n%s\n", dateTimeString(), merge4); err != nil {
+		// if _, err := fmt.Fprintf(f, "%s\n%s\n", dateTimeString(), merge4); err != nil {
+		// 	log.Fatal(err)
+		// }
+
+		if _, err := fmt.Fprintf(f, "%s\n", merge4); err != nil {
 			log.Fatal(err)
 		}
 	}
