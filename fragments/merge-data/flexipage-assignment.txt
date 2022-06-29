@@ -1,3 +1,3 @@
-GovGPS_Upload_Record_Page,GovGPS_Upload__c,default,Read Only
-GovGPS_Upload_Record_Page,GovGPS_Upload__c,default,Project Administrator
-GovGPS_Upload_Record_Page,GovGPS_Upload__c,default,Admin
+GovGPS_Upload_Record_Page,GovGPS_Upload__c,NONE,Read Only
+GovGPS_Upload_Record_Page,GovGPS_Upload__c,NONE,Project Administrator
+GovGPS_Upload_Record_Page,GovGPS_Upload__c,NONE,Admin
