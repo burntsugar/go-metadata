@@ -1,0 +1,4 @@
+	<types>
+		MEMBERS
+		<name>NAME</name>
+	</types>

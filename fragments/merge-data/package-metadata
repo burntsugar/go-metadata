@@ -1,0 +1,34 @@
+Credential__c.APHRA_Registration_Number__c,CustomField
+Credential__c.Cert_III_or_Cert_IV_Number__c,CustomField
+Credential__c.Chartered_Account_Registration_Number__c,CustomField
+Credential__c.RTO_Details__c,CustomField
+Credential__c.RTO_Registration_Number__c,CustomField
+Account.Total_Percentage__c,CustomField
+Account.Provider_Approval_Status__c,CustomField
+Account.Provider_Approval_Status_RO__c,CustomField
+Contact_Relationship__c.Application__c,CustomField
+Geospatial_Information__c.Layer__c,CustomField
+Geospatial_Information__c.Layer_Id__c,CustomField
+CustomLabels.labels-meta,CustomLabel
+Address,CustomObject
+Location,CustomObject
+Update_Contact_Identify_Informaiton,Flow
+Delete Account Total Owned Percentage,Flow
+Update Account Total Owned Percentage - Delete CR,Flow
+UpdateServiceViewForAccount,Flow
+Update CR Passport/DriverLicence To Contact - Delete CR,Flow
+Account_Relationship__c-Provider to Intermediary Layout,Layout
+Credential__c-Credential Layout,Layout
+BusinessLicense-NATSIFAC Approval Layout,Layout
+BusinessLicense-CHSP Approval Layout,Layout
+BusinessLicense-Approved Provider Approval Layout,Layout
+Accenture_Dev,Permission Set
+Account_Relationship__c.Provider_to_Intermediary,RecordType
+Comment__c.Approved_Provider_Comment,RecordType
+Comment__c.NATSIFAC_Comment,RecordType
+Credential__c.Passport,RecordType
+Credential__c.Driver_Licence,RecordType
+Contact.Point_Of_Contact,RecordType
+BusinessLicense.NATSIFAC_Approval,RecordType
+BusinessLicense.CHSP_Approval,RecordType
+BusinessLicense.Approved_Provider_Approval,RecordType
