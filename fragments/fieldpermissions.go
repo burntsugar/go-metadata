@@ -19,7 +19,7 @@ func FieldPermissions() {
 
 	fieldPermissionz := makeFieldPermissionFragments(template, placeholderNames, mergeValues)
 
-	saveData(fieldPermissionz)
+	saveData(fieldPermissionz, "fragments/output/fieldperm-output-data.txt")
 }
 
 func makeFieldPermissionFragments(template string, placeholderNames []string, mergeValues []fieldPerms) string {

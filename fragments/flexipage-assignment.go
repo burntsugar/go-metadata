@@ -27,7 +27,7 @@ func FlexipageAssignments() {
 }
 
 func makeFlexipageAssignmentFragments(template string, placeholderNames []string, mergeValues []flexipageAttributes) {
-	f := openFile()
+	f := openFile("fragments/output/flexipage-output-data.txt")
 	defer f.Close()
 
 	rtElementText := "    <recordType>RECORDTYPENAME</recordType>"
@@ -60,7 +60,7 @@ func makeFlexipageAssignmentFragments(template string, placeholderNames []string
 		}
 
 	}
-	removeEmptyLines()
+	removeEmptyLines("fragments/output/flexipage-output-data.txt")
 	fmt.Println("Fragment created!")
 }
 

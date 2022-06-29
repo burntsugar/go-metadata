@@ -14,7 +14,7 @@ func LayoutAssignments() {
 	template := readTemplate("fragments/templates/layout-assignment-template.txt")
 	placeholderNames := []string{"LAYOUTNAME", "RECORDTYPENAME"}
 	layoutAssignments := makeLayoutAssignmentFragments(template, placeholderNames, mergeValues)
-	saveData(layoutAssignments)
+	saveData(layoutAssignments, "fragments/output/layoutass-output-data.txt")
 }
 
 func makeLayoutAssignmentFragments(template string, placeholderNames []string, mergeValues []layoutAttributes) string {

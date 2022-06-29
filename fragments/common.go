@@ -40,9 +40,9 @@ func dateTimeString() (dateTimeString string) {
 	return t.Format(l)
 }
 
-func openFile() (f *os.File) {
+func openFile(fileName string) (f *os.File) {
 	// fileName := "fragments/output/" + dateTimeString() + "-data.txt"
-	fileName := "fragments/output/output-data.txt"
+	//fileName := "fragments/output/output-data.txt"
 
 	f, err := os.OpenFile(fileName,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
@@ -53,12 +53,12 @@ func openFile() (f *os.File) {
 	return f
 }
 
-func saveData(dataString string) {
+func saveData(dataString string, fileName string) {
 	t := time.Now()
 	const layout = "2 Jan 2006 15:04:05"
 	// fileName := "fragments/output/" + t.Format(layout) + "-data.txt"
 
-	fileName := "fragments/output/output-data.txt"
+	//fileName := "fragments/output/output-data.txt"
 
 	f, err := os.OpenFile(fileName,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
@@ -77,13 +77,15 @@ func saveData(dataString string) {
 	//removeEmptyLines()
 }
 
-func removeEmptyLines() {
+func removeEmptyLines(fileName string) {
 	fmt.Println("REMOVE EMPTY LINES!")
-	f := openFile()
+	// f := openFile("fragments/output/output-data.txt")
+	f := openFile(fileName)
+
 	defer f.Close()
 
 	//newLines := []string{}
-	lines := readMergeValues("fragments/output/output-data.txt")
+	lines := readMergeValues(fileName)
 	for _, line := range lines {
 
 		// str := strings.TrimSpace(line)

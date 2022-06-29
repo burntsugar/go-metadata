@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	// fragments.LayoutAssignments()
-	// fragments.RecordTypeVisibility()
+	fragments.LayoutAssignments()
+	fragments.RecordTypeVisibility()
 	fragments.FlexipageAssignments()
-	//fragments.FieldPermissions()
+	fragments.FieldPermissions()
 }
