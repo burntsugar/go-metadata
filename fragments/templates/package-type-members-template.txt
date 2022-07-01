@@ -1,1 +1,1 @@
-        <members>Case.SendEmail</members>
+        <members>MEMBERNAME</members>

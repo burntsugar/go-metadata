@@ -20,6 +20,12 @@ func readTemplate(templateFile string) string {
 
 func merge(template string, placeholderName string, mergeValue string) string {
 	s1 := strings.Replace(template, placeholderName, mergeValue, -1)
+	//fmt.Println(s1)
+	return s1
+}
+
+func mergeAndTrim(template string, placeholderName string, mergeValue string) string {
+	s1 := strings.TrimSpace(strings.Replace(template, placeholderName, mergeValue, -1))
 	return s1
 }
 
@@ -53,6 +59,19 @@ func openFile(fileName string) (f *os.File) {
 	return f
 }
 
+func overwriteFile(fileName string) (f *os.File) {
+	// fileName := "fragments/output/" + dateTimeString() + "-data.txt"
+	//fileName := "fragments/output/output-data.txt"
+
+	f, err := os.OpenFile(fileName,
+		os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return f
+}
+
 func saveData(dataString string, fileName string) {
 	t := time.Now()
 	const layout = "2 Jan 2006 15:04:05"
@@ -78,28 +97,47 @@ func saveData(dataString string, fileName string) {
 }
 
 func removeEmptyLines(fileName string) {
-	fmt.Println("REMOVE EMPTY LINES!")
-	// f := openFile("fragments/output/output-data.txt")
 	f := openFile(fileName)
-
 	defer f.Close()
 
-	//newLines := []string{}
 	lines := readMergeValues(fileName)
 	for _, line := range lines {
 
-		// str := strings.TrimSpace(line)
 		lineLen := len(line)
 		fmt.Println(line + " " + strconv.Itoa(lineLen))
 		if len(line) > 1 {
-			//newLines = append(newLines, line)
 			if _, err := fmt.Fprintf(f, "%s\n", line); err != nil {
 				log.Fatal(err)
 			}
 		}
-		//s = strings.Replace(lines, "\n\n", "\n", 1)
 	}
 
+}
+
+func removeEmptyLinesFromSlice(slice []string) []string {
+
+	result := []string{}
+	for _, line := range slice {
+
+		lineLen := len(line)
+		fmt.Println(line + " " + strconv.Itoa(lineLen))
+		if len(line) > 1 {
+			// if _, err := fmt.Fprintf(f, "%s\n", line); err != nil {
+			// 	log.Fatal(err)
+			// }
+			result = append(result, line+"\n")
+		}
+	}
+	return result
+
+}
+
+func trimStrings(stringSlice []string) []string {
+	result := []string{}
+	for _, s := range stringSlice {
+		result = append(result, strings.TrimSpace(s))
+	}
+	return result
 }
 
 // func removeEmptyLines() {
