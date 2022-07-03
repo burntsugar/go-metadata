@@ -22,7 +22,7 @@ Credential__c-Credential Layout,Layout
 BusinessLicense-NATSIFAC Approval Layout,Layout
 BusinessLicense-CHSP Approval Layout,Layout
 BusinessLicense-Approved Provider Approval Layout,Layout
-Accenture_Dev,Permission Set
+Accenture_Dev,PermissionSet
 Account_Relationship__c.Provider_to_Intermediary,RecordType
 Comment__c.Approved_Provider_Comment,RecordType
 Comment__c.NATSIFAC_Comment,RecordType
@@ -32,3 +32,4 @@ Contact.Point_Of_Contact,RecordType
 BusinessLicense.NATSIFAC_Approval,RecordType
 BusinessLicense.CHSP_Approval,RecordType
 BusinessLicense.Approved_Provider_Approval,RecordType
+Account_Relationship__c.Parent_Integration_ID__c,CustomField

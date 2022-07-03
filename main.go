@@ -8,7 +8,7 @@ func main() {
 	// fragments.LayoutAssignments()
 	// fragments.RecordTypeVisibility()
 	//fragments.FieldPermissions()
-	// fragments.PackageManifest()
-	fragments.FlexipageAssignments()
+	fragments.PackageManifest()
+	//fragments.FlexipageAssignments()
 
 }
