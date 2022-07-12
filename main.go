@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	// fragments.LayoutAssignments()
+	//fragments.LayoutAssignments()
 	// fragments.RecordTypeVisibility()
 	//fragments.FieldPermissions()
-	fragments.PackageManifest()
-	//fragments.FlexipageAssignments()
+	//fragments.PackageManifest()
+	fragments.FlexipageAssignments()
 
 }

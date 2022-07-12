@@ -1,3 +1,5 @@
-layout1,rt1
-layout2,rt2
-layout3,rt3
+AAT_Review__c-AAT Review,AAT_Review__c.AAT_Review
+Account-Approved Provider,Account.Approved_Provider
+CaseClose-Request For Information Close Layout,Case.Request_for_Information
+Case-Request For Information,Case.Request_for_Information
+Reconsideration__c-Reconsideration Layout,Reconsideration__c.Reconsideration
